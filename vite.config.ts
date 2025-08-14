@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/angular-sparkle-flux/' : '/',
+  base: mode === '/',
   server: {
     host: "::",
     port: 8080,
